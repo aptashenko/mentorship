@@ -1,0 +1,13 @@
+@import "./components/colors";
+@import "./components/normalize";
+@import "./components/fonts";
+body {
+  background: $primary;
+  font-family: "Ubuntu Sans Mono", monospace;
+  color: $white;
+}
+
+a {
+  color: $white;
+  transition: all .25s ease;
+}
